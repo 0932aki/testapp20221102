@@ -1,0 +1,8 @@
+asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1652752042988/work
+dj-database-url==0.5.0
+Django @ file:///home/conda/feedstock_root/build_artifacts/django_1638897748254/work
+gunicorn @ file:///Users/runner/miniforge3/conda-bld/gunicorn_1666818694810/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1660580468234/work
+sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1663990453245/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1656706066251/work
+whitenoise @ file:///home/conda/feedstock_root/build_artifacts/whitenoise_1654461900330/work
