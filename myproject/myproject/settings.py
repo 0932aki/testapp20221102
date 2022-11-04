@@ -135,6 +135,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #heroku
 
+"""
 #databaseの設定を上書き
 import dj_database_url
 DATABASES['default'] = dj_database_url.config()
@@ -156,3 +157,5 @@ except ImportError:
 #ソースコード上からセキュリティのためにSECRET_KEYを削除したが，参照する命令を残しておく
 if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
+
+"""
