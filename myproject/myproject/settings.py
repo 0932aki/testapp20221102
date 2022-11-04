@@ -135,7 +135,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #heroku
 
-"""
 #databaseの設定を上書き
 import dj_database_url
 DATABASES['default'] = dj_database_url.config()
@@ -146,7 +145,7 @@ ALLOWED_HOSTS = ['*']
 
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 #エラー時にセキュリティキー等が表示されてしまうため，セキュリティのためになしにしておく
 DEBUG = False
 
@@ -157,5 +156,3 @@ except ImportError:
 #ソースコード上からセキュリティのためにSECRET_KEYを削除したが，参照する命令を残しておく
 if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
-
-"""
